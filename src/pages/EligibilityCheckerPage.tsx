@@ -221,7 +221,6 @@ export function EligibilityCheckerPage() {
                 onChange={(e) => handleAnswer(e.target.value)}
                 placeholder={question.placeholder}
                 className="w-full px-4 py-3 rounded-xl border border-slate-300 text-lg text-slate-800 dark:text-slate-100 focus:border-primary-500 focus:ring-2 focus:ring-primary-200 transition-all outline-none"
-                autoFocus
               />
             ) : (
               <div className={`grid ${isMulti ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-1 sm:grid-cols-2'} gap-2`}>
