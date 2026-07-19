@@ -57,10 +57,13 @@ export function HomePage() {
           <div className="grid lg:grid-cols-[1.1fr_1fr] gap-8 lg:gap-12 items-center">
             {/* Left: Search & Content */}
             <div className="max-w-2xl">
-              <Badge variant="primary" className="mb-5 bg-white/10 text-primary-200 border border-white/20">
-                <Sparkles className="w-3.5 h-3.5" />
-                AI-Powered Scheme Discovery
-              </Badge>
+              <Badge
+               variant="primary"
+               className="mb-5 bg-saffron-500 text-white border border-saffron-400 shadow-md"
+>
+  <Sparkles className="w-3.5 h-3.5" />
+  AI-Powered Scheme Discovery
+</Badge>
               <h1 className="font-heading font-bold text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-5 text-balance">
                 Find Government Schemes
                 <br />

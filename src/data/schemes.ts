@@ -1,3 +1,5 @@
+import farmer from "../IMAGES/testimonials/farmer.jpg";
+import streetvandor from "../IMAGES/testimonials/streetvendor.jpg";
 export interface Scheme {
   id: string;
   title: string;
@@ -1110,22 +1112,22 @@ export const schemes: Scheme[] = [
 export const testimonials = [
   {
     name: 'Rajesh Kumar',
-    role: 'Farmer, Patna Bihar',
-    avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150',
+    role: 'Farmer • Patna, Bihar',
+    avatar: farmer,
     text: 'SchemeHub helped me discover PM-KISAN within minutes. I had no idea I was eligible for ₹6,000 per year. The AI checker made the whole process incredibly simple.',
     scheme: 'PM-KISAN',
   },
   {
     name: 'Priya Sharma',
-    role: 'Student, Jaipur Rajasthan',
+    role: 'Student •Jaipur Rajasthan',
     avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
     text: 'As a first-generation college student, finding scholarships was overwhelming. SchemeHub\'s eligibility checker showed me 3 scholarships I qualified for instantly.',
     scheme: 'NSP Scholarship',
   },
   {
     name: 'Mohammed Irfan',
-    role: 'Street Vendor, Hyderabad',
-    avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150',
+    role: 'Street Vendor• Hyderabad',
+    avatar: streetvandor,
     text: 'I got a ₹10,000 loan under PM SVANidhi to restock my cart. SchemeHub guided me through every document I needed. The step-by-step process was very clear.',
     scheme: 'PM SVANidhi',
   },
